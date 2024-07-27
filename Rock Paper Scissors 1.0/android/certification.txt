@@ -1,0 +1,24 @@
+---------------------------------------------------
+Here are the ownership and the certification details
+of the Rock Paper Scissors 1.0
+---------------------------------------------------
+
+app_name - 						Rock Paper Scissors
+app_alias - 					rockpaperscissors
+app_author_name - 				My Company
+app_author_organizational - 	My Company
+app_author_organization - 		My Company
+app_author_locality - 			My Company
+app_author_state - 				Ciudad de Mexico
+app_author_country - 			Mexico
+app_password - 					ggixG935n8Ze
+app_versionName - 				versionName "1.0"
+app_versionCode - 				100
+
+---------------------------------------------------
+The certification was created by WebIntoApp.com at
+the Wednesday 10th of July 2024 12:57:39 AM
+
+https://www.webintoapp.com
+---------------------------------------------------
+
