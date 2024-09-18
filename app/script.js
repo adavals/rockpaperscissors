@@ -3,6 +3,11 @@ const resultText = document.getElementById('result-text');
 const yourChoice = document.getElementById('your-choice');
 const computerChoice = document.getElementById('computer-choice');
 
+const prizeModal = document.getElementById('prize-modal');
+const adModal = document.getElementById('ad-modal');
+const closePrize = document.getElementById('close-prize');
+const closeAd = document.getElementById('close-ad');
+
 choices.forEach(choice => choice.addEventListener('click', playGame));
 
 function playGame(e) {
@@ -16,6 +21,9 @@ function playGame(e) {
 
     if (winner === 'Win') {
         triggerConfetti();
+        showPrizeModal();
+    } else if (winner === 'Lose') {
+        showAdModal();
     }
 }
 
@@ -60,3 +68,20 @@ function triggerConfetti() {
         }
     }());
 }
+
+function showPrizeModal() {
+    prizeModal.style.display = 'flex';
+}
+
+function showAdModal() {
+    adModal.style.display = 'flex';
+}
+
+// Close the modals when the user clicks on the close button
+closePrize.addEventListener('click', () => {
+    prizeModal.style.display = 'none';
+});
+
+closeAd.addEventListener('click', () => {
+    adModal.style.display = 'none';
+});
